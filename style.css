@@ -201,7 +201,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid green;
+
   width: 20vw;
 }
 #footer > .left > p {
@@ -213,7 +213,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid rgb(128, 0, 107);
+
   width: 60vw;
   height: 27vh;
 }
@@ -223,7 +223,7 @@ nav {
   justify-content: center;
 
   align-items: center;
-  border: 1px solid rgb(212, 255, 23);
+
   width: 20vw;
 }
 #footer > .mid {
