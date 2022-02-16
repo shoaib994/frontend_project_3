@@ -1,6 +1,7 @@
 * {
   margin: 0%;
   padding: 0%;
+  scroll-behavior: smooth;
 }
 body {
   height: 220vh;
@@ -35,7 +36,7 @@ nav {
   justify-content: center;
   align-items: center;
   height: 5vh;
-  font-size: 30px;
+  font-size: 3vw;
   font-weight: 900;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
@@ -51,7 +52,7 @@ nav {
 .mid > a {
   text-decoration: none;
   color: black;
-  font-size: 22px;
+  font-size: 2vw;
   /* flex-shrink: ; */
   align-self: stretch;
   display: flex;
@@ -134,4 +135,116 @@ nav {
   padding: 1vw;
   margin-top: 4vh;
   margin-left: -11vw;
+}
+
+.product {
+  display: flex;
+
+  background-color: aqua;
+  width: 80vw;
+  display: flex;
+  margin: 0 auto;
+}
+
+#p_text {
+  margin: 2% auto;
+  /* height: 02%; */
+  width: 20%;
+  font-size: 2.5vw;
+  border-bottom: 5px solid crimson;
+  padding: 0vw;
+  text-align: center;
+}
+#product_imgContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.product1 {
+  margin: 2%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.product1:hover {
+  transform: translateY(-13px);
+}
+.product1 > img {
+  width: 18vmax;
+  /* height: 25vmax; */
+}
+
+.product1 > h3 {
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 2vmax;
+
+  background-color: rgba(0, 0, 0, 0.685);
+}
+#footer > .left > img {
+  width: 15vmax;
+  margin-top: 5px;
+}
+#footer > .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid green;
+  width: 20vw;
+}
+#footer > .left > p {
+  text-align: center;
+  color: white;
+}
+#footer > .mid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(128, 0, 107);
+  width: 60vw;
+  height: 27vh;
+}
+#footer > .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  align-items: center;
+  border: 1px solid rgb(212, 255, 23);
+  width: 20vw;
+}
+#footer > .mid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+#footer > .mid > h1 {
+  color: crimson;
+}
+#footer > .mid > p {
+  margin-top: 3vh;
+}
+#footer > .right > a {
+  margin-top: 0.5vw;
+  text-decoration: none;
+  color: white;
+}
+#footer > .right > h3 {
+  color: white;
+  margin-bottom: 0.8vw;
 }
